@@ -4299,11 +4299,11 @@ fieldset:disabled .btn {
   background-color: transparent;
   border: 1px solid transparent;
   border-radius: 0.25rem;
-  transition: box-shadow 0.15s ease-in-out;
+  transition: box-shadow 0.6s ease-in-out;
 }
 @media (prefers-reduced-motion: reduce) {
   .navbar-toggler {
-    transition: none;
+    transition: 0.6s;
   }
 }
 .navbar-toggler:hover {
@@ -4367,7 +4367,7 @@ fieldset:disabled .btn {
     background-color: transparent;
     border-right: 0;
     border-left: 0;
-    transition: none;
+    transition: 0.6s;
     transform: none;
   }
   .navbar-expand-sm .offcanvas-top,
@@ -4420,7 +4420,7 @@ fieldset:disabled .btn {
     background-color: transparent;
     border-right: 0;
     border-left: 0;
-    transition: none;
+    transition: 0.6s;
     transform: none;
   }
   .navbar-expand-md .offcanvas-top,
@@ -4473,7 +4473,7 @@ fieldset:disabled .btn {
     background-color: transparent;
     border-right: 0;
     border-left: 0;
-    transition: none;
+    transition: 0.6s;
     transform: none;
   }
   .navbar-expand-lg .offcanvas-top,
@@ -4526,7 +4526,7 @@ fieldset:disabled .btn {
     background-color: transparent;
     border-right: 0;
     border-left: 0;
-    transition: none;
+    transition: 0.6s;
     transform: none;
   }
   .navbar-expand-xl .offcanvas-top,
@@ -4579,7 +4579,7 @@ fieldset:disabled .btn {
     background-color: transparent;
     border-right: 0;
     border-left: 0;
-    transition: none;
+    transition: 0.6s;
     transform: none;
   }
   .navbar-expand-xxl .offcanvas-top,
@@ -4631,7 +4631,7 @@ fieldset:disabled .btn {
   background-color: transparent;
   border-right: 0;
   border-left: 0;
-  transition: none;
+  transition: 0.6s;
   transform: none;
 }
 .navbar-expand .offcanvas-top,
