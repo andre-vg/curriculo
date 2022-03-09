@@ -114,8 +114,8 @@ h6 {
 
 .nav-menu a:hover,
 .nav-menu li:hover > a {
-  width: 87.5%;
-  color: #000;
+  width: 100%;
+  color: black;
 }
 .nav-menu a:hover span,
 .nav-menu li:hover > a span {
@@ -189,8 +189,8 @@ h6 {
 #hero .imagemindex img {
   width: 400px;
   height: 400px;
-  margin-left: 200px;
-  margin-bottom: 50px;
+  margin-left: auto;
+  margin-bottom: auto;
   display: block;
   border-radius: 1000px;
   box-shadow: 10px 10px 5px #aaaaaa;
@@ -663,4 +663,7 @@ input[type="email"] {
 }
 .formulario {
   align-items: left;
+}
+.centro {
+  text-align: center;
 }
