@@ -38,7 +38,7 @@ function Contact() {
                 </div>
               </div>
               <br />
-              <div class="row col-lg-8 center">
+              <div class="row">
                 <input
                   type="hidden"
                   name="_next"
